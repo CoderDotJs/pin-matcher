@@ -1,5 +1,7 @@
 document.querySelector('.generate-btn').addEventListener('click', function(){
     document.getElementById('pin-display').value = getPin();
+    notifyPass.style.display = 'none';
+    notifyFail.style.display = 'none'; 
 })
 
 document.querySelector('.submit-btn').addEventListener('click', function(){
